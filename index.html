@@ -107,89 +107,68 @@
     </header>
 
     <main class="pt-20">
-      <section id="beranda" class="relative overflow-hidden pt-12 sm:pt-16">
-        <div class="absolute inset-0 bg-gradient-to-b from-orange-50 via-white to-slate-50"></div>
-        <div class="absolute inset-0 bg-grid opacity-40"></div>
-        <div class="relative mx-auto max-w-6xl px-4 pb-16 sm:px-6 lg:px-8">
-          <div class="grid items-center gap-12 lg:grid-cols-[1.1fr_0.9fr]">
-            <div class="space-y-6">
-              <p
-                class="text-sm font-semibold uppercase tracking-[0.2em] text-orange-600"
-                data-hero
-              >
-                Toko Bangunan Maju Jaya
-              </p>
-              <h1
-                class="text-3xl font-semibold leading-tight text-slate-900 sm:text-4xl lg:text-5xl"
-                data-hero
-              >
-                Pusat Material Bangunan Terpercaya untuk Proyek dan Renovasi Anda
-              </h1>
-              <p class="text-base text-slate-600 sm:text-lg" data-hero>
-                Kami menyediakan kebutuhan bahan bangunan lengkap, harga
-                kompetitif, dan layanan pengiriman cepat untuk rumah, toko,
-                proyek, dan kontraktor.
-              </p>
-              <div class="flex flex-col gap-3 sm:flex-row" data-hero>
-                <a
-                  class="btn-primary"
-                  href="https://wa.me/6281234567890"
-                  data-cta
-                >
-                  Konsultasi via WhatsApp
-                </a>
-                <a class="btn-secondary" href="#produk">Lihat Produk</a>
-              </div>
-              <div
-                class="grid gap-4 pt-4 sm:grid-cols-3"
-                aria-label="Statistik toko"
-              >
-                <article class="stat-card" data-stat>
-                  <p class="text-2xl font-semibold text-slate-900">15+</p>
-                  <p class="text-sm text-slate-600">Tahun Pengalaman</p>
-                </article>
-                <article class="stat-card" data-stat>
-                  <p class="text-2xl font-semibold text-slate-900">1.000+</p>
-                  <p class="text-sm text-slate-600">Produk</p>
-                </article>
-                <article class="stat-card" data-stat>
-                  <p class="text-2xl font-semibold text-slate-900">500+</p>
-                  <p class="text-sm text-slate-600">Pelanggan Proyek</p>
-                </article>
-              </div>
+      <section id="beranda" class="relative overflow-hidden w-full flex items-center min-h-[85vh]">
+        <!-- Carousel Background -->
+        <section class="hero-carousel !absolute !inset-0 !w-full !h-full !rounded-none !border-none !min-h-full !shadow-none" data-carousel aria-label="Banner hero">
+           <article class="hero-carousel-slide" data-carousel-slide data-active="true" aria-hidden="false">
+             <img class="hero-carousel-image" src="/images/hero_carousel_1.png" alt="Modern construction materials store interior" loading="eager" fetchpriority="high" style="object-position: center;" />
+             <div class="hero-carousel-shade" style="background: rgba(15,23,42,0.65)"></div>
+           </article>
+           <article class="hero-carousel-slide" data-carousel-slide data-active="false" aria-hidden="true">
+             <img class="hero-carousel-image" src="/images/hero_carousel_2.png" alt="Home renovation project materials" loading="lazy" style="object-position: center;" />
+             <div class="hero-carousel-shade" style="background: rgba(15,23,42,0.65)"></div>
+           </article>
+           <article class="hero-carousel-slide" data-carousel-slide data-active="false" aria-hidden="true">
+             <img class="hero-carousel-image" src="/images/hero_carousel_3.png" alt="Large building materials supply store yard" loading="lazy" style="object-position: center;" />
+             <div class="hero-carousel-shade" style="background: rgba(15,23,42,0.65)"></div>
+           </article>
+           
+           <div class="hero-carousel-footer !left-4 !right-4 !bottom-4 lg:!left-8 lg:!right-8 lg:!bottom-8 !z-20">
+             <div class="hero-carousel-caption">
+               <span class="hero-carousel-status !bg-white/20 !text-white !shadow-none backdrop-blur border border-white/30" data-carousel-status>Banner 01 / 03</span>
+             </div>
+             <div class="hero-carousel-controls">
+               <button type="button" class="hero-carousel-control !border-white/50 !bg-white/10 !text-white backdrop-blur hover:!bg-white hover:!text-slate-900" data-carousel-prev aria-label="Banner sebelumnya">
+                 <svg viewBox="0 0 24 24" class="h-4 w-4" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 18-6-6 6-6" /></svg>
+               </button>
+               <button type="button" class="hero-carousel-control !border-white/50 !bg-white/10 !text-white backdrop-blur hover:!bg-white hover:!text-slate-900" data-carousel-next aria-label="Banner berikutnya">
+                 <svg viewBox="0 0 24 24" class="h-4 w-4" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 6 6 6-6 6" /></svg>
+               </button>
+             </div>
+           </div>
+        </section>
+
+        <!-- Foreground Content -->
+        <div class="relative z-10 mx-auto max-w-6xl w-full px-4 py-32 sm:px-6 lg:px-8">
+          <div class="max-w-2xl space-y-6">
+            <p class="text-sm font-semibold uppercase tracking-[0.2em] text-orange-400" data-hero>
+              Toko Bangunan Maju Jaya
+            </p>
+            <h1 class="text-3xl font-semibold leading-tight text-white sm:text-4xl lg:text-5xl" data-hero>
+              Pusat Material Bangunan Terpercaya untuk Proyek dan Renovasi Anda
+            </h1>
+            <p class="text-base text-slate-200 sm:text-lg" data-hero>
+              Kami menyediakan kebutuhan bahan bangunan lengkap, harga kompetitif, dan layanan pengiriman cepat untuk rumah, toko, proyek, dan kontraktor.
+            </p>
+            <div class="flex flex-col gap-3 sm:flex-row pt-4" data-hero>
+              <a class="btn-primary" href="https://wa.me/6281234567890" data-cta>
+                Konsultasi via WhatsApp
+              </a>
+              <a class="btn-secondary !bg-white/10 !text-white !border-white/20 hover:!bg-white/20 backdrop-blur" href="#produk">Lihat Produk</a>
             </div>
-            <div class="relative" data-hero>
-              <section
-                class="hero-carousel"
-                aria-label="Banner hero"
-              >
-                <article
-                  class="hero-carousel-slide"
-                  data-active="true"
-                  aria-hidden="false"
-                >
-                  <img
-                    class="hero-carousel-image"
-                    src="/images/hero_carousel_1.png"
-                    alt="Modern construction materials store interior"
-                    loading="eager"
-                    fetchpriority="high"
-                    style="object-position: center top;"
-                  />
-                  <div class="hero-carousel-shade"></div>
-                  <div class="hero-carousel-copy">
-                    <div class="hero-carousel-copy-inner">
-                      <p class="hero-carousel-kicker">Maju Jaya</p>
-                      <p class="hero-carousel-title">
-                        Pusat Material Lengkap
-                      </p>
-                      <p class="hero-carousel-description">
-                        Kami menyediakan berbagai macam material bangunan untuk segala kebutuhan proyek Anda.
-                      </p>
-                    </div>
-                  </div>
-                </article>
-              </section>
+            <div class="grid gap-4 pt-8 sm:grid-cols-3" aria-label="Statistik toko">
+              <article class="stat-card !bg-white/10 !border-white/20 !shadow-none backdrop-blur" data-stat>
+                <p class="text-2xl font-semibold text-white">15+</p>
+                <p class="text-sm text-slate-200">Tahun Pengalaman</p>
+              </article>
+              <article class="stat-card !bg-white/10 !border-white/20 !shadow-none backdrop-blur" data-stat>
+                <p class="text-2xl font-semibold text-white">1.000+</p>
+                <p class="text-sm text-slate-200">Produk</p>
+              </article>
+              <article class="stat-card !bg-white/10 !border-white/20 !shadow-none backdrop-blur" data-stat>
+                <p class="text-2xl font-semibold text-white">500+</p>
+                <p class="text-sm text-slate-200">Pelanggan Proyek</p>
+              </article>
             </div>
           </div>
         </div>
