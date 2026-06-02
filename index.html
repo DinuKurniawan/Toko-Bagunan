@@ -3,919 +3,700 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Toko Bangunan Maju Jaya | Material Lengkap & Layanan Profesional</title>
-    <meta
-      name="description"
-      content="Toko Bangunan Maju Jaya menyediakan material konstruksi, alat bangunan, cat, keramik, pipa, listrik, dan kebutuhan renovasi dengan harga kompetitif serta pengiriman cepat."
-    />
+    <title>Toko Bangunan Maju Jaya | Pusat Material Lengkap</title>
+    <meta name="description" content="Pusat material bangunan terpercaya untuk proyek dan renovasi Anda. Harga kompetitif dan layanan pengiriman cepat." />
     <meta property="og:title" content="Toko Bangunan Maju Jaya" />
-    <meta
-      property="og:description"
-      content="Pusat material bangunan terpercaya untuk proyek dan renovasi Anda. Lengkap, kompetitif, dan pengiriman cepat."
-    />
+    <meta property="og:description" content="Kebutuhan bahan bangunan lengkap untuk rumah, toko, proyek, dan kontraktor." />
     <meta property="og:type" content="website" />
-    <meta property="og:locale" content="id_ID" />
-    <meta name="theme-color" content="#f59e0b" />
+    <meta name="theme-color" content="#f97316" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   </head>
-  <body class="bg-slate-50 text-slate-900 antialiased">
-    <header class="fixed top-0 z-50 w-full">
-      <nav
-        id="navbar"
-        class="mx-auto flex w-full items-center justify-between border-b border-transparent bg-white/70 px-4 py-4 backdrop-blur transition-all duration-300 sm:px-6 lg:px-8"
-        aria-label="Navigasi utama"
-        data-scrolled="false"
-      >
-        <div class="flex items-center gap-3">
-          <div
-            class="flex h-10 w-10 items-center justify-center rounded-xl bg-orange-500 text-white shadow-soft"
-            aria-hidden="true"
-          >
-            <svg
-              viewBox="0 0 24 24"
-              class="h-5 w-5"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="2"
-            >
-              <path d="M3 11h18v9H3z" />
-              <path d="M7 11V7a5 5 0 0 1 10 0v4" />
-            </svg>
-          </div>
-          <span class="text-lg font-semibold tracking-tight">Maju Jaya</span>
-        </div>
-        <div class="hidden items-center gap-6 md:flex">
-          <a class="nav-link" href="#beranda">Beranda</a>
-          <a class="nav-link" href="#tentang">Tentang Kami</a>
-          <a class="nav-link" href="#produk">Produk</a>
-          <a class="nav-link" href="#layanan">Layanan</a>
-          <a class="nav-link" href="#keunggulan">Keunggulan</a>
-          <a class="nav-link" href="#galeri">Galeri</a>
-          <a class="nav-link" href="#kontak">Kontak</a>
-        </div>
-        <div class="hidden md:flex">
-          <a
-            class="btn-primary"
-            href="https://wa.me/6281234567890"
-            data-cta
-          >
-            Hubungi Kami
+  <body class="bg-slate-50 text-slate-900 font-sans antialiased overflow-x-hidden selection:bg-orange-200">
+    <header id="navbar" class="fixed top-0 w-full z-50 transition-all duration-300 border-b border-transparent bg-transparent py-4">
+      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between">
+          <a href="#beranda" class="flex items-center gap-2 group outline-none focus-visible:ring-2 focus-visible:ring-orange-500 rounded-lg">
+            <div class="bg-orange-500 text-white p-2 rounded-xl shadow-lg shadow-orange-500/20 group-hover:scale-105 transition-transform">
+              <i data-lucide="hammer"></i>
+            </div>
+            <span class="text-xl font-bold tracking-tight text-slate-900">Maju Jaya</span>
           </a>
-        </div>
-        <button
-          id="mobile-menu-button"
-          class="flex h-10 w-10 items-center justify-center rounded-xl border border-slate-200 bg-white text-slate-700 shadow-soft transition hover:border-orange-300 hover:text-orange-600 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-400 md:hidden"
-          aria-label="Buka menu navigasi"
-          aria-expanded="false"
-          aria-controls="mobile-menu"
-        >
-          <svg
-            viewBox="0 0 24 24"
-            class="h-5 w-5"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-          >
-            <path d="M4 7h16M4 12h16M4 17h16" />
-          </svg>
-        </button>
-      </nav>
-      <div
-        id="mobile-menu"
-        class="md:hidden overflow-hidden"
-        aria-hidden="true"
-        hidden
-      >
-        <div class="glass-card mx-4 mt-3 overflow-hidden rounded-2xl border border-slate-200/60 p-4 shadow-soft">
-          <div class="flex flex-col gap-3 text-sm font-medium text-slate-700">
-            <a class="nav-link" href="#beranda">Beranda</a>
-            <a class="nav-link" href="#tentang">Tentang Kami</a>
-            <a class="nav-link" href="#produk">Produk</a>
-            <a class="nav-link" href="#layanan">Layanan</a>
-            <a class="nav-link" href="#keunggulan">Keunggulan</a>
-            <a class="nav-link" href="#galeri">Galeri</a>
-            <a class="nav-link" href="#kontak">Kontak</a>
-            <a
-              class="btn-primary mt-2 text-center"
-              href="https://wa.me/6281234567890"
-              data-cta
-            >
+
+          <nav class="hidden md:flex items-center gap-8">
+            <a href="#beranda" class="text-sm font-medium text-slate-600 hover:text-orange-600 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-500 rounded-sm">Beranda</a>
+            <a href="#tentang" class="text-sm font-medium text-slate-600 hover:text-orange-600 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-500 rounded-sm">Tentang Kami</a>
+            <a href="#produk" class="text-sm font-medium text-slate-600 hover:text-orange-600 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-500 rounded-sm">Produk</a>
+            <a href="#layanan" class="text-sm font-medium text-slate-600 hover:text-orange-600 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-500 rounded-sm">Layanan</a>
+            <a href="#keunggulan" class="text-sm font-medium text-slate-600 hover:text-orange-600 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-500 rounded-sm">Keunggulan</a>
+            <a href="#galeri" class="text-sm font-medium text-slate-600 hover:text-orange-600 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-500 rounded-sm">Galeri</a>
+          </nav>
+
+          <div class="hidden md:flex">
+            <a href="#kontak" class="btn-primary" data-cta>
               Hubungi Kami
             </a>
           </div>
+
+          <button id="mobile-menu-btn" class="md:hidden p-2 text-slate-600 hover:text-orange-600 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-500 rounded-lg" aria-label="Toggle menu" aria-expanded="false">
+            <i data-lucide="menu" id="menu-icon-open"></i>
+            <i data-lucide="x" id="menu-icon-close" class="hidden"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- Mobile Menu -->
+      <div id="mobile-menu" class="hidden md:hidden absolute top-full left-0 w-full bg-white/90 backdrop-blur-md border-b border-slate-200 shadow-xl overflow-hidden" aria-hidden="true">
+        <div class="px-4 py-6 flex flex-col gap-4">
+          <a href="#beranda" class="mobile-link text-base font-semibold text-slate-800">Beranda</a>
+          <a href="#tentang" class="mobile-link text-base font-semibold text-slate-800">Tentang Kami</a>
+          <a href="#produk" class="mobile-link text-base font-semibold text-slate-800">Produk</a>
+          <a href="#layanan" class="mobile-link text-base font-semibold text-slate-800">Layanan</a>
+          <a href="#keunggulan" class="mobile-link text-base font-semibold text-slate-800">Keunggulan</a>
+          <a href="#galeri" class="mobile-link text-base font-semibold text-slate-800">Galeri</a>
+          <a href="#kontak" class="mobile-link text-base font-semibold text-slate-800">Kontak</a>
+          <a href="#kontak" class="mt-4 flex items-center justify-center gap-2 bg-orange-500 text-white py-3 rounded-xl font-semibold">
+            <i data-lucide="message-circle" class="w-5 h-5"></i> Hubungi Kami
+          </a>
         </div>
       </div>
     </header>
 
-    <main class="pt-20">
-      <section id="beranda" class="relative overflow-hidden w-full flex items-center min-h-[85vh]">
-        <!-- Carousel Background -->
-        <section class="hero-carousel !absolute !inset-0 !w-full !h-full !rounded-none !border-none !min-h-full !shadow-none" data-carousel aria-label="Banner hero">
-           <article class="hero-carousel-slide" data-carousel-slide data-active="true" aria-hidden="false">
-             <img class="hero-carousel-image" src="/images/hero_carousel_1.png" alt="Modern construction materials store interior" loading="eager" fetchpriority="high" style="object-position: center;" />
-             <div class="hero-carousel-shade" style="background: rgba(15,23,42,0.65)"></div>
-           </article>
-           <article class="hero-carousel-slide" data-carousel-slide data-active="false" aria-hidden="true">
-             <img class="hero-carousel-image" src="/images/hero_carousel_2.png" alt="Home renovation project materials" loading="lazy" style="object-position: center;" />
-             <div class="hero-carousel-shade" style="background: rgba(15,23,42,0.65)"></div>
-           </article>
-           <article class="hero-carousel-slide" data-carousel-slide data-active="false" aria-hidden="true">
-             <img class="hero-carousel-image" src="/images/hero_carousel_3.png" alt="Large building materials supply store yard" loading="lazy" style="object-position: center;" />
-             <div class="hero-carousel-shade" style="background: rgba(15,23,42,0.65)"></div>
-           </article>
-           
+    <main>
+      <!-- Hero Section -->
+      <section id="beranda" class="relative min-h-screen flex items-center pt-24 pb-16 overflow-hidden">
+        <!-- Background elements -->
+        <div class="absolute inset-0 bg-gradient-to-b from-slate-50 via-white to-slate-100 -z-20"></div>
+        <div class="pattern-grid absolute inset-0 opacity-[0.03] -z-20"></div>
+        <div class="absolute top-1/4 left-1/4 w-96 h-96 bg-orange-400/20 rounded-full blur-[100px] -z-10 mix-blend-multiply pointer-events-none" data-parallax="0.05"></div>
+        <div class="absolute bottom-1/4 right-1/4 w-96 h-96 bg-blue-400/10 rounded-full blur-[100px] -z-10 mix-blend-multiply pointer-events-none" data-parallax="-0.03"></div>
+        
+        <!-- Decorative shapes -->
+        <div class="absolute top-32 right-12 text-slate-200 -z-10 pointer-events-none opacity-50" data-parallax="0.1">
+          <i data-lucide="hexagon" class="w-24 h-24"></i>
+        </div>
+        <div class="absolute bottom-32 left-12 text-orange-100 -z-10 pointer-events-none opacity-50" data-parallax="-0.08">
+          <i data-lucide="triangle" class="w-16 h-16"></i>
+        </div>
 
-        </section>
+        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative w-full">
+          <div class="grid lg:grid-cols-2 gap-12 lg:gap-8 items-center">
+            
+            <!-- Hero Text -->
+            <div class="max-w-2xl">
+              <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-orange-100 text-orange-600 text-sm font-bold tracking-widest uppercase mb-6" id="hero-badge">
+                <i data-lucide="sparkles" class="w-4 h-4"></i>
+                Toko Bangunan Maju Jaya
+              </div>
+              
+              <h1 id="hero-headline" class="text-4xl sm:text-5xl lg:text-6xl font-bold text-slate-900 leading-[1.15] mb-6">
+                Pusat Material Bangunan Terpercaya untuk Proyek dan Renovasi Anda
+              </h1>
+              
+              <p id="hero-subheadline" class="text-lg text-slate-600 mb-8 max-w-xl leading-relaxed">
+                Kami menyediakan kebutuhan bahan bangunan lengkap, harga kompetitif, dan layanan pengiriman cepat untuk rumah, toko, proyek, dan kontraktor.
+              </p>
+              
+              <div class="flex flex-col sm:flex-row gap-4" id="hero-ctas">
+                <a href="https://wa.me/6281234567890" target="_blank" rel="noopener" class="btn-primary text-base px-8 py-4" data-cta>
+                  <i data-lucide="message-circle" class="w-5 h-5"></i>
+                  Konsultasi via WhatsApp
+                </a>
+                <a href="#produk" class="btn-secondary text-base px-8 py-4" data-cta>
+                  Lihat Produk
+                  <i data-lucide="arrow-right" class="w-5 h-5"></i>
+                </a>
+              </div>
 
-        <!-- Foreground Content -->
-        <div class="relative z-10 mx-auto max-w-6xl w-full px-4 py-32 sm:px-6 lg:px-8">
-          <div class="max-w-2xl space-y-6">
-            <p class="text-sm font-semibold uppercase tracking-[0.2em] text-orange-400" data-hero>
-              Toko Bangunan Maju Jaya
-            </p>
-            <h1 class="text-3xl font-semibold leading-tight text-white sm:text-4xl lg:text-5xl" data-hero>
-              Pusat Material Bangunan Terpercaya untuk Proyek dan Renovasi Anda
-            </h1>
-            <p class="text-base text-slate-200 sm:text-lg" data-hero>
-              Kami menyediakan kebutuhan bahan bangunan lengkap, harga kompetitif, dan layanan pengiriman cepat untuk rumah, toko, proyek, dan kontraktor.
-            </p>
-            <div class="flex flex-col gap-3 sm:flex-row pt-4" data-hero>
-              <a class="btn-primary" href="https://wa.me/6281234567890" data-cta>
-                Konsultasi via WhatsApp
-              </a>
-              <a class="btn-secondary !bg-white/10 !text-white !border-white/20 hover:!bg-white/20 backdrop-blur" href="#produk">Lihat Produk</a>
+              <div class="grid grid-cols-3 gap-6 mt-12 pt-12 border-t border-slate-200/60" id="hero-stats">
+                <div>
+                  <div class="text-3xl font-bold text-slate-900">15+</div>
+                  <div class="text-sm font-medium text-slate-500 mt-1">Tahun Pengalaman</div>
+                </div>
+                <div>
+                  <div class="text-3xl font-bold text-slate-900">1k+</div>
+                  <div class="text-sm font-medium text-slate-500 mt-1">Produk Bangunan</div>
+                </div>
+                <div>
+                  <div class="text-3xl font-bold text-slate-900">500+</div>
+                  <div class="text-sm font-medium text-slate-500 mt-1">Pelanggan Proyek</div>
+                </div>
+              </div>
             </div>
-            <div class="grid gap-4 pt-8 sm:grid-cols-3" aria-label="Statistik toko">
-              <article class="stat-card !bg-white/10 !border-white/20 !shadow-none backdrop-blur" data-stat>
-                <p class="text-2xl font-semibold text-white">15+</p>
-                <p class="text-sm text-slate-200">Tahun Pengalaman</p>
-              </article>
-              <article class="stat-card !bg-white/10 !border-white/20 !shadow-none backdrop-blur" data-stat>
-                <p class="text-2xl font-semibold text-white">1.000+</p>
-                <p class="text-sm text-slate-200">Produk</p>
-              </article>
-              <article class="stat-card !bg-white/10 !border-white/20 !shadow-none backdrop-blur" data-stat>
-                <p class="text-2xl font-semibold text-white">500+</p>
-                <p class="text-sm text-slate-200">Pelanggan Proyek</p>
-              </article>
+
+            <!-- Hero Visual (Floating Cards) -->
+            <div class="relative h-[500px] hidden lg:block" id="hero-visual">
+              <div class="absolute inset-0 bg-slate-900/5 rounded-[3rem] border border-white/60 shadow-2xl shadow-slate-200/50 backdrop-blur-sm overflow-hidden">
+                <div class="pattern-dots absolute inset-0 opacity-20"></div>
+              </div>
+              
+              <!-- Floating Card 1 -->
+              <div class="floating-card absolute top-12 left-8 bg-white p-4 rounded-2xl shadow-xl shadow-slate-200/50 border border-slate-100 flex items-center gap-4 w-64" style="--delay: 0s;">
+                <div class="bg-orange-50 text-orange-500 p-3 rounded-xl">
+                  <i data-lucide="package" class="w-6 h-6"></i>
+                </div>
+                <div>
+                  <div class="font-bold text-slate-900">Semen & Pasir</div>
+                  <div class="text-xs text-slate-500">Stok Selalu Tersedia</div>
+                </div>
+              </div>
+              
+              <!-- Floating Card 2 -->
+              <div class="floating-card absolute top-1/3 -right-6 bg-white p-4 rounded-2xl shadow-xl shadow-slate-200/50 border border-slate-100 flex items-center gap-4 w-64" style="--delay: -2s;">
+                <div class="bg-blue-50 text-blue-500 p-3 rounded-xl">
+                  <i data-lucide="layers" class="w-6 h-6"></i>
+                </div>
+                <div>
+                  <div class="font-bold text-slate-900">Besi & Baja</div>
+                  <div class="text-xs text-slate-500">Kualitas SNI</div>
+                </div>
+              </div>
+
+              <!-- Floating Card 3 -->
+              <div class="floating-card absolute bottom-24 left-16 bg-white p-4 rounded-2xl shadow-xl shadow-slate-200/50 border border-slate-100 flex items-center gap-4 w-64" style="--delay: -4s;">
+                <div class="bg-emerald-50 text-emerald-500 p-3 rounded-xl">
+                  <i data-lucide="paint-bucket" class="w-6 h-6"></i>
+                </div>
+                <div>
+                  <div class="font-bold text-slate-900">Cat & Finishing</div>
+                  <div class="text-xs text-slate-500">Berbagai Warna</div>
+                </div>
+              </div>
+
+              <!-- Floating Card 4 -->
+              <div class="floating-card absolute -bottom-6 right-12 bg-white p-4 rounded-2xl shadow-xl shadow-slate-200/50 border border-slate-100 flex items-center gap-4 w-64" style="--delay: -1.5s;">
+                <div class="bg-purple-50 text-purple-500 p-3 rounded-xl">
+                  <i data-lucide="layout-grid" class="w-6 h-6"></i>
+                </div>
+                <div>
+                  <div class="font-bold text-slate-900">Keramik & Granit</div>
+                  <div class="text-xs text-slate-500">Motif Terbaru</div>
+                </div>
+              </div>
+
             </div>
           </div>
         </div>
       </section>
 
-      <section id="tentang" class="section-padding">
-        <div class="mx-auto grid max-w-6xl gap-10 px-4 sm:px-6 lg:grid-cols-2 lg:px-8">
-          <div class="space-y-4" data-reveal>
-            <p class="section-label">Tentang Kami</p>
-            <h2 class="section-title">
-              Mitra material lokal yang profesional dan terpercaya
-            </h2>
-            <p class="section-description">
-              Toko Bangunan Maju Jaya adalah toko bangunan lokal dengan jaringan
-              pasokan yang kuat. Kami melayani kebutuhan pembelian retail hingga
-              supply proyek, dari renovasi rumah hingga pembangunan skala
-              menengah. Dengan tim berpengalaman, kami memastikan proses
-              pemesanan, konsultasi, dan pengiriman berjalan rapi dan tepat
-              waktu.
-            </p>
-          </div>
-          <div class="grid gap-4">
-            <article class="value-card" data-reveal>
-              <h3 class="text-lg font-semibold text-slate-900">Produk lengkap</h3>
-              <p class="text-sm text-slate-600">
-                Pilihan produk dari merek terpercaya untuk kebutuhan struktur,
-                instalasi, hingga finishing.
+      <!-- Tentang Kami -->
+      <section id="tentang" class="py-24 bg-white relative">
+        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div class="grid lg:grid-cols-2 gap-16 items-center">
+            <div class="order-2 lg:order-1 relative rounded-3xl overflow-hidden aspect-square bg-slate-100 scroll-reveal">
+              <!-- CSS Placeholder -->
+              <div class="absolute inset-0 bg-gradient-to-br from-slate-200 to-slate-100 flex items-center justify-center">
+                <i data-lucide="building-2" class="w-32 h-32 text-slate-300"></i>
+              </div>
+              <div class="absolute bottom-6 left-6 right-6 bg-white/90 backdrop-blur p-6 rounded-2xl border border-white">
+                <div class="font-bold text-xl text-slate-900 mb-2">Mitra Material Anda</div>
+                <div class="text-sm text-slate-600">Melayani dengan integritas sejak 2011.</div>
+              </div>
+            </div>
+            <div class="order-1 lg:order-2 space-y-6 scroll-reveal">
+              <div class="section-label">Tentang Kami</div>
+              <h2 class="text-3xl sm:text-4xl font-bold text-slate-900 leading-tight">
+                Mitra material lokal yang profesional dan terpercaya
+              </h2>
+              <p class="text-lg text-slate-600 leading-relaxed">
+                Toko Bangunan Maju Jaya adalah toko bangunan lokal dengan jaringan pasokan yang kuat. Kami melayani kebutuhan pembelian retail hingga supply proyek, dari renovasi rumah hingga pembangunan skala menengah.
               </p>
-            </article>
-            <article class="value-card" data-reveal>
-              <h3 class="text-lg font-semibold text-slate-900">
-                Harga bersaing
-              </h3>
-              <p class="text-sm text-slate-600">
-                Penawaran harga transparan untuk pembelian retail maupun grosir
-                proyek.
+              <p class="text-lg text-slate-600 leading-relaxed">
+                Dengan tim berpengalaman, kami memastikan proses pemesanan, konsultasi, dan pengiriman berjalan rapi dan tepat waktu untuk berbagai kebutuhan:
               </p>
-            </article>
-            <article class="value-card" data-reveal>
-              <h3 class="text-lg font-semibold text-slate-900">
-                Pengiriman tepat waktu
-              </h3>
-              <p class="text-sm text-slate-600">
-                Armada pengiriman siap mengantarkan material sesuai jadwal kerja
-                proyek.
-              </p>
-            </article>
+              <ul class="space-y-3 mt-4">
+                <li class="flex items-center gap-3 text-slate-700">
+                  <i data-lucide="check-circle-2" class="text-orange-500 w-5 h-5 flex-shrink-0"></i>
+                  <span>Pembelian retail untuk perbaikan rumah</span>
+                </li>
+                <li class="flex items-center gap-3 text-slate-700">
+                  <i data-lucide="check-circle-2" class="text-orange-500 w-5 h-5 flex-shrink-0"></i>
+                  <span>Pembelian grosir dengan harga spesial</span>
+                </li>
+                <li class="flex items-center gap-3 text-slate-700">
+                  <i data-lucide="check-circle-2" class="text-orange-500 w-5 h-5 flex-shrink-0"></i>
+                  <span>Supply material proyek berkelanjutan</span>
+                </li>
+                <li class="flex items-center gap-3 text-slate-700">
+                  <i data-lucide="check-circle-2" class="text-orange-500 w-5 h-5 flex-shrink-0"></i>
+                  <span>Kebutuhan spesifik kontraktor dan mandor</span>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </section>
 
-      <section id="produk" class="section-padding bg-white">
-        <div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
-          <div class="max-w-2xl" data-reveal>
-            <p class="section-label">Produk Unggulan</p>
-            <h2 class="section-title">
-              Kategori material yang siap memenuhi kebutuhan proyek Anda
+      <!-- Produk Unggulan -->
+      <section id="produk" class="py-24 bg-slate-50 relative">
+        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div class="text-center max-w-2xl mx-auto mb-16 scroll-reveal">
+            <div class="section-label justify-center">Produk Unggulan</div>
+            <h2 class="text-3xl sm:text-4xl font-bold text-slate-900 mt-4 mb-4">
+              Kategori material lengkap
             </h2>
-            <p class="section-description">
-              Kami menyusun katalog produk agar mudah dipilih, baik untuk
-              renovasi rumah maupun supply proyek skala menengah hingga besar.
+            <p class="text-slate-600 text-lg">
+              Katalog produk yang terorganisir untuk memenuhi kebutuhan renovasi dan supply proyek Anda.
             </p>
           </div>
-          <div class="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-            <article class="product-card" data-reveal>
-              <div class="icon-box">
-                <svg viewBox="0 0 24 24" class="h-6 w-6" aria-hidden="true">
-                  <path
-                    d="M6 3h12v8H6zM4 11h16v10H4z"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="1.8"
-                  />
-                </svg>
+
+          <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            <!-- Product Cards -->
+            <div class="product-card scroll-reveal">
+              <div class="product-icon bg-orange-100 text-orange-600">
+                <i data-lucide="package-open"></i>
               </div>
               <h3 class="product-title">Semen & Pasir</h3>
-              <p class="product-desc">
-                Material struktur utama untuk pondasi dan pengecoran kuat.
-              </p>
-            </article>
-            <article class="product-card" data-reveal>
-              <div class="icon-box">
-                <svg viewBox="0 0 24 24" class="h-6 w-6" aria-hidden="true">
-                  <path
-                    d="M4 6h16M4 12h16M4 18h10"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="1.8"
-                  />
-                </svg>
+              <p class="product-desc">Material struktur utama untuk pondasi dan pengecoran kuat.</p>
+            </div>
+            
+            <div class="product-card scroll-reveal">
+              <div class="product-icon bg-slate-100 text-slate-600">
+                <i data-lucide="cuboid"></i>
               </div>
               <h3 class="product-title">Besi & Baja Ringan</h3>
-              <p class="product-desc">
-                Rangka bangunan kokoh dengan kualitas teruji.
-              </p>
-            </article>
-            <article class="product-card" data-reveal>
-              <div class="icon-box">
-                <svg viewBox="0 0 24 24" class="h-6 w-6" aria-hidden="true">
-                  <path
-                    d="M7 4l10 10M7 14l10-10"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="1.8"
-                  />
-                  <rect
-                    x="4"
-                    y="16"
-                    width="16"
-                    height="4"
-                    rx="2"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="1.8"
-                  />
-                </svg>
+              <p class="product-desc">Rangka bangunan kokoh dengan kualitas teruji SNI.</p>
+            </div>
+
+            <div class="product-card scroll-reveal">
+              <div class="product-icon bg-emerald-100 text-emerald-600">
+                <i data-lucide="paint-roller"></i>
               </div>
-              <h3 class="product-title">Cat & Perlengkapan Finishing</h3>
-              <p class="product-desc">
-                Cat tembok, kayu, metal, dan perlengkapan finishing.
-              </p>
-            </article>
-            <article class="product-card" data-reveal>
-              <div class="icon-box">
-                <svg viewBox="0 0 24 24" class="h-6 w-6" aria-hidden="true">
-                  <rect
-                    x="3"
-                    y="3"
-                    width="7"
-                    height="7"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="1.8"
-                  />
-                  <rect
-                    x="14"
-                    y="3"
-                    width="7"
-                    height="7"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="1.8"
-                  />
-                  <rect
-                    x="3"
-                    y="14"
-                    width="7"
-                    height="7"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="1.8"
-                  />
-                  <rect
-                    x="14"
-                    y="14"
-                    width="7"
-                    height="7"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="1.8"
-                  />
-                </svg>
+              <h3 class="product-title">Cat & Finishing</h3>
+              <p class="product-desc">Cat tembok, kayu, metal, dan perlengkapan finishing.</p>
+            </div>
+
+            <div class="product-card scroll-reveal">
+              <div class="product-icon bg-purple-100 text-purple-600">
+                <i data-lucide="layout-grid"></i>
               </div>
               <h3 class="product-title">Keramik & Granit</h3>
-              <p class="product-desc">
-                Pilihan motif modern untuk lantai dan dinding.
-              </p>
-            </article>
-            <article class="product-card" data-reveal>
-              <div class="icon-box">
-                <svg viewBox="0 0 24 24" class="h-6 w-6" aria-hidden="true">
-                  <path
-                    d="M5 7h14v10H5z"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="1.8"
-                  />
-                  <path
-                    d="M9 7v10M15 7v10"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="1.8"
-                  />
-                </svg>
+              <p class="product-desc">Pilihan motif modern untuk lantai dan dinding ruangan.</p>
+            </div>
+
+            <div class="product-card scroll-reveal">
+              <div class="product-icon bg-blue-100 text-blue-600">
+                <i data-lucide="droplet"></i>
               </div>
               <h3 class="product-title">Pipa & Sanitair</h3>
-              <p class="product-desc">
-                Sistem air bersih, drainase, dan perlengkapan sanitair.
-              </p>
-            </article>
-            <article class="product-card" data-reveal>
-              <div class="icon-box">
-                <svg viewBox="0 0 24 24" class="h-6 w-6" aria-hidden="true">
-                  <path
-                    d="M7 5h10v8H7z"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="1.8"
-                  />
-                  <path
-                    d="M9 13v6M15 13v6M5 13h14"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="1.8"
-                  />
-                </svg>
+              <p class="product-desc">Sistem air bersih, drainase, dan perlengkapan sanitair.</p>
+            </div>
+
+            <div class="product-card scroll-reveal">
+              <div class="product-icon bg-yellow-100 text-yellow-600">
+                <i data-lucide="zap"></i>
               </div>
               <h3 class="product-title">Alat Listrik</h3>
-              <p class="product-desc">
-                Kabel, lampu, saklar, dan instalasi listrik aman.
-              </p>
-            </article>
-            <article class="product-card" data-reveal>
-              <div class="icon-box">
-                <svg viewBox="0 0 24 24" class="h-6 w-6" aria-hidden="true">
-                  <path
-                    d="M4 19l8-8 4 4 4-4"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="1.8"
-                  />
-                  <path
-                    d="M3 5h6l2 2h10"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="1.8"
-                  />
-                </svg>
+              <p class="product-desc">Kabel, lampu, saklar, dan instalasi listrik aman.</p>
+            </div>
+
+            <div class="product-card scroll-reveal">
+              <div class="product-icon bg-red-100 text-red-600">
+                <i data-lucide="hammer"></i>
               </div>
               <h3 class="product-title">Perkakas Bangunan</h3>
-              <p class="product-desc">
-                Perkakas tukang, alat ukur, dan kebutuhan kerja lapangan.
-              </p>
-            </article>
-            <article class="product-card" data-reveal>
-              <div class="icon-box">
-                <svg viewBox="0 0 24 24" class="h-6 w-6" aria-hidden="true">
-                  <path
-                    d="M3 12l9-7 9 7"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="1.8"
-                  />
-                  <path
-                    d="M6 12v8h12v-8"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="1.8"
-                  />
-                </svg>
+              <p class="product-desc">Perkakas tukang, alat ukur, dan kebutuhan lapangan.</p>
+            </div>
+
+            <div class="product-card scroll-reveal">
+              <div class="product-icon bg-cyan-100 text-cyan-600">
+                <i data-lucide="home"></i>
               </div>
               <h3 class="product-title">Material Atap</h3>
-              <p class="product-desc">
-                Genteng, rangka atap, dan aksesoris pelindung.
-              </p>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section id="layanan" class="section-padding">
-        <div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
-          <div class="max-w-2xl" data-reveal>
-            <p class="section-label">Layanan</p>
-            <h2 class="section-title">
-              Layanan lengkap untuk pembelian retail hingga supply proyek
-            </h2>
-            <p class="section-description">
-              Kami memastikan proses pemesanan mudah, transparan, dan fleksibel
-              agar kebutuhan material selalu siap digunakan.
-            </p>
-          </div>
-          <div class="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-            <article class="service-card" data-reveal>
-              <h3 class="text-lg font-semibold text-slate-900">
-                Penjualan retail dan grosir
-              </h3>
-              <p class="text-sm text-slate-600">
-                Beli satuan hingga volume besar dengan harga kompetitif.
-              </p>
-            </article>
-            <article class="service-card" data-reveal>
-              <h3 class="text-lg font-semibold text-slate-900">
-                Supply material proyek
-              </h3>
-              <p class="text-sm text-slate-600">
-                Pengadaan material sesuai kebutuhan proyek dan spesifikasi
-                kontraktor.
-              </p>
-            </article>
-            <article class="service-card" data-reveal>
-              <h3 class="text-lg font-semibold text-slate-900">
-                Pengiriman ke lokasi
-              </h3>
-              <p class="text-sm text-slate-600">
-                Armada siap mengantar material tepat waktu ke lokasi proyek.
-              </p>
-            </article>
-            <article class="service-card" data-reveal>
-              <h3 class="text-lg font-semibold text-slate-900">
-                Konsultasi kebutuhan material
-              </h3>
-              <p class="text-sm text-slate-600">
-                Rekomendasi produk sesuai anggaran dan skala pekerjaan.
-              </p>
-            </article>
-            <article class="service-card" data-reveal>
-              <h3 class="text-lg font-semibold text-slate-900">
-                Pemesanan via WhatsApp
-              </h3>
-              <p class="text-sm text-slate-600">
-                Hubungi tim kami untuk pemesanan cepat dan update stok.
-              </p>
-            </article>
-            <article class="service-card" data-reveal>
-              <h3 class="text-lg font-semibold text-slate-900">
-                Pembayaran fleksibel proyek
-              </h3>
-              <p class="text-sm text-slate-600">
-                Skema pembayaran yang dapat disesuaikan dengan kebutuhan proyek.
-              </p>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section id="keunggulan" class="section-padding bg-white">
-        <div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
-          <div class="max-w-2xl" data-reveal>
-            <p class="section-label">Keunggulan</p>
-            <h2 class="section-title">Alasan pelanggan memilih Maju Jaya</h2>
-            <p class="section-description">
-              Kami fokus pada pengalaman pelanggan dengan layanan konsisten dan
-              tim yang sigap.
-            </p>
-          </div>
-          <div class="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-            <article class="advantage-card" data-reveal>
-              <h3 class="text-base font-semibold text-slate-900">Stok lengkap</h3>
-              <p class="text-sm text-slate-600">
-                Ketersediaan produk yang stabil untuk proyek berjalan.
-              </p>
-            </article>
-            <article class="advantage-card" data-reveal>
-              <h3 class="text-base font-semibold text-slate-900">
-                Harga kompetitif
-              </h3>
-              <p class="text-sm text-slate-600">
-                Penawaran terbaik untuk kebutuhan retail maupun proyek.
-              </p>
-            </article>
-            <article class="advantage-card" data-reveal>
-              <h3 class="text-base font-semibold text-slate-900">
-                Bisa kirim cepat
-              </h3>
-              <p class="text-sm text-slate-600">
-                Pengiriman terjadwal agar pekerjaan tidak tertunda.
-              </p>
-            </article>
-            <article class="advantage-card" data-reveal>
-              <h3 class="text-base font-semibold text-slate-900">
-                Tim berpengalaman
-              </h3>
-              <p class="text-sm text-slate-600">
-                Konsultasi langsung dengan staf yang memahami produk.
-              </p>
-            </article>
-            <article class="advantage-card" data-reveal>
-              <h3 class="text-base font-semibold text-slate-900">
-                Cocok proyek kecil hingga besar
-              </h3>
-              <p class="text-sm text-slate-600">
-                Dukungan logistik fleksibel untuk berbagai skala kebutuhan.
-              </p>
-            </article>
-            <article class="advantage-card" data-reveal>
-              <h3 class="text-base font-semibold text-slate-900">
-                Pelayanan responsif
-              </h3>
-              <p class="text-sm text-slate-600">
-                Respon cepat, komunikasi jelas, dan update stok realtime.
-              </p>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section id="galeri" class="section-padding">
-        <div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
-          <div class="max-w-2xl" data-reveal>
-            <p class="section-label">Galeri / Project Supply</p>
-            <h2 class="section-title">
-              Dokumentasi aktivitas toko dan supply proyek
-            </h2>
-            <p class="section-description">
-              Tampilan ini adalah representasi visual suasana toko dan aktivitas
-              pengiriman material.
-            </p>
-          </div>
-          <div class="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-            <article class="gallery-card" aria-label="Pengiriman material" data-reveal>
-              <img src="/images/gallery_delivery.png" alt="Pengiriman material" class="gallery-visual w-full h-full object-cover" />
-              <p class="gallery-caption">Pengiriman material</p>
-            </article>
-            <article class="gallery-card" aria-label="Stok gudang" data-reveal>
-              <img src="/images/gallery_warehouse.png" alt="Stok gudang" class="gallery-visual w-full h-full object-cover" />
-              <p class="gallery-caption">Stok gudang</p>
-            </article>
-            <article class="gallery-card" aria-label="Produk cat" data-reveal>
-              <img src="/images/gallery_paint.png" alt="Produk cat" class="gallery-visual w-full h-full object-cover" />
-              <p class="gallery-caption">Produk cat</p>
-            </article>
-            <article class="gallery-card" aria-label="Besi dan pipa" data-reveal>
-              <img src="/images/gallery_steel_pipe.png" alt="Besi dan pipa" class="gallery-visual w-full h-full object-cover" />
-              <p class="gallery-caption">Besi dan pipa</p>
-            </article>
-            <article class="gallery-card" aria-label="Keramik dan finishing" data-reveal>
-              <img src="/images/gallery_ceramics.png" alt="Keramik dan finishing" class="gallery-visual w-full h-full object-cover" />
-              <p class="gallery-caption">Keramik dan finishing</p>
-            </article>
-            <article class="gallery-card" aria-label="Area toko" data-reveal>
-              <img src="/images/gallery_store_area.png" alt="Area toko" class="gallery-visual w-full h-full object-cover" />
-              <p class="gallery-caption">Area toko</p>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section id="testimoni" class="section-padding bg-white">
-        <div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
-          <div class="max-w-2xl" data-reveal>
-            <p class="section-label">Testimoni</p>
-            <h2 class="section-title">Pelanggan kami merasakan layanan nyata</h2>
-            <p class="section-description">
-              Umpan balik positif dari berbagai segmen pelanggan kami.
-            </p>
-          </div>
-          <div class="mt-10 grid gap-6 lg:grid-cols-3">
-            <article class="testimonial-card" data-reveal>
-              <p class="text-sm text-slate-600">
-                “Stok material lengkap dan pengiriman tepat waktu. Renovasi rumah
-                saya jadi lebih cepat tanpa repot cari bahan ke banyak tempat.”
-              </p>
-              <div class="mt-4">
-                <p class="font-semibold text-slate-900">Ibu Ratna</p>
-                <p class="text-xs text-slate-500">Pemilik rumah</p>
-              </div>
-            </article>
-            <article class="testimonial-card" data-reveal>
-              <p class="text-sm text-slate-600">
-                “Harga grosirnya kompetitif, koordinasi tim Maju Jaya juga
-                responsif. Sangat membantu saat proyek sedang berjalan.”
-              </p>
-              <div class="mt-4">
-                <p class="font-semibold text-slate-900">Pak Hendra</p>
-                <p class="text-xs text-slate-500">Mandor proyek</p>
-              </div>
-            </article>
-            <article class="testimonial-card" data-reveal>
-              <p class="text-sm text-slate-600">
-                “Kami dapat satu vendor untuk banyak kebutuhan, dari struktur
-                sampai finishing. Efisien dan jelas progres stoknya.”
-              </p>
-              <div class="mt-4">
-                <p class="font-semibold text-slate-900">CV Sinar Karya</p>
-                <p class="text-xs text-slate-500">Kontraktor kecil</p>
-              </div>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section id="faq" class="section-padding">
-        <div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
-          <div class="max-w-2xl" data-reveal>
-            <p class="section-label">FAQ</p>
-            <h2 class="section-title">Pertanyaan yang sering diajukan</h2>
-            <p class="section-description">
-              Jawaban singkat untuk kebutuhan informasi cepat.
-            </p>
-          </div>
-          <div class="mt-10 grid gap-4">
-            <div class="faq-item" data-accordion data-open="false">
-              <button
-                class="faq-trigger"
-                aria-expanded="false"
-                aria-controls="faq-1"
-              >
-                <span>Apakah bisa kirim ke lokasi proyek?</span>
-                <span class="faq-icon" aria-hidden="true">
-                  <svg viewBox="0 0 24 24" class="h-5 w-5" fill="none">
-                    <path
-                      d="M6 9l6 6 6-6"
-                      stroke="currentColor"
-                      stroke-width="2"
-                    />
-                  </svg>
-                </span>
-              </button>
-              <div id="faq-1" class="faq-panel" data-panel hidden>
-                Ya, kami melayani pengiriman ke lokasi proyek sesuai jadwal yang
-                disepakati.
-              </div>
-            </div>
-            <div class="faq-item" data-accordion data-open="false">
-              <button
-                class="faq-trigger"
-                aria-expanded="false"
-                aria-controls="faq-2"
-              >
-                <span>Apakah melayani pembelian grosir?</span>
-                <span class="faq-icon" aria-hidden="true">
-                  <svg viewBox="0 0 24 24" class="h-5 w-5" fill="none">
-                    <path
-                      d="M6 9l6 6 6-6"
-                      stroke="currentColor"
-                      stroke-width="2"
-                    />
-                  </svg>
-                </span>
-              </button>
-              <div id="faq-2" class="faq-panel" data-panel hidden>
-                Bisa. Kami menyediakan harga khusus untuk pembelian grosir dan
-                proyek.
-              </div>
-            </div>
-            <div class="faq-item" data-accordion data-open="false">
-              <button
-                class="faq-trigger"
-                aria-expanded="false"
-                aria-controls="faq-3"
-              >
-                <span>Apakah bisa konsultasi kebutuhan material?</span>
-                <span class="faq-icon" aria-hidden="true">
-                  <svg viewBox="0 0 24 24" class="h-5 w-5" fill="none">
-                    <path
-                      d="M6 9l6 6 6-6"
-                      stroke="currentColor"
-                      stroke-width="2"
-                    />
-                  </svg>
-                </span>
-              </button>
-              <div id="faq-3" class="faq-panel" data-panel hidden>
-                Tentu. Tim kami siap membantu rekomendasi produk sesuai
-                kebutuhan Anda.
-              </div>
-            </div>
-            <div class="faq-item" data-accordion data-open="false">
-              <button
-                class="faq-trigger"
-                aria-expanded="false"
-                aria-controls="faq-4"
-              >
-                <span>Apakah bisa pesan via WhatsApp?</span>
-                <span class="faq-icon" aria-hidden="true">
-                  <svg viewBox="0 0 24 24" class="h-5 w-5" fill="none">
-                    <path
-                      d="M6 9l6 6 6-6"
-                      stroke="currentColor"
-                      stroke-width="2"
-                    />
-                  </svg>
-                </span>
-              </button>
-              <div id="faq-4" class="faq-panel" data-panel hidden>
-                Ya. Anda dapat mengirim daftar kebutuhan material melalui
-                WhatsApp.
-              </div>
-            </div>
-            <div class="faq-item" data-accordion data-open="false">
-              <button
-                class="faq-trigger"
-                aria-expanded="false"
-                aria-controls="faq-5"
-              >
-                <span>Area pengiriman ke mana saja?</span>
-                <span class="faq-icon" aria-hidden="true">
-                  <svg viewBox="0 0 24 24" class="h-5 w-5" fill="none">
-                    <path
-                      d="M6 9l6 6 6-6"
-                      stroke="currentColor"
-                      stroke-width="2"
-                    />
-                  </svg>
-                </span>
-              </button>
-              <div id="faq-5" class="faq-panel" data-panel hidden>
-                Area Jakarta dan sekitarnya, dengan opsi pengiriman khusus untuk
-                proyek luar kota.
-              </div>
+              <p class="product-desc">Genteng, asbes, seng, dan aksesoris pelindung atap.</p>
             </div>
           </div>
         </div>
       </section>
 
-      <section id="kontak" class="section-padding bg-white">
-        <div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
-          <div class="max-w-2xl" data-reveal>
-            <p class="section-label">Kontak</p>
-            <h2 class="section-title">
-              Konsultasi kebutuhan material Anda sekarang
-            </h2>
-            <p class="section-description">
-              Hubungi tim kami untuk informasi harga, stok, dan jadwal pengiriman.
-            </p>
-          </div>
-          <div class="mt-10 grid gap-8 lg:grid-cols-[1fr_1.1fr]">
-            <div class="space-y-6" data-reveal>
-              <div class="contact-card">
-                <p class="text-sm font-semibold text-slate-900">Alamat</p>
-                <p class="text-sm text-slate-600">
-                  Jl. Raya Bangunan No. 88, Jakarta
-                </p>
-              </div>
-              <div class="contact-card">
-                <p class="text-sm font-semibold text-slate-900">Jam Buka</p>
-                <p class="text-sm text-slate-600">
-                  Senin - Sabtu, 07.30 - 17.00
-                </p>
-              </div>
-              <div class="contact-card">
-                <p class="text-sm font-semibold text-slate-900">WhatsApp</p>
-                <a
-                  class="text-sm font-medium text-orange-600 hover:text-orange-700"
-                  href="https://wa.me/6281234567890"
-                >
-                  0812-3456-7890
-                </a>
-              </div>
-              <div class="contact-card">
-                <p class="text-sm font-semibold text-slate-900">Email</p>
-                <a
-                  class="text-sm font-medium text-orange-600 hover:text-orange-700"
-                  href="mailto:info@majujaya.co.id"
-                >
-                  info@majujaya.co.id
-                </a>
-              </div>
-              <a
-                class="btn-primary inline-flex"
-                href="https://wa.me/6281234567890"
-                data-cta
-              >
-                Chat WhatsApp Sekarang
+      <!-- Layanan -->
+      <section id="layanan" class="py-24 bg-white relative">
+        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div class="grid lg:grid-cols-12 gap-12 items-start">
+            <div class="lg:col-span-5 sticky top-24 scroll-reveal">
+              <div class="section-label">Layanan Kami</div>
+              <h2 class="text-3xl sm:text-4xl font-bold text-slate-900 mt-4 mb-6">
+                Layanan menyeluruh untuk kelancaran proyek
+              </h2>
+              <p class="text-lg text-slate-600 mb-8">
+                Kami memastikan proses pemesanan mudah, transparan, dan fleksibel agar kebutuhan material Anda selalu siap digunakan.
+              </p>
+              <a href="https://wa.me/6281234567890" class="btn-primary" data-cta>
+                Konsultasi Layanan
               </a>
             </div>
-            <form
-              id="contact-form"
-              class="glass-card rounded-3xl border border-slate-200/60 bg-white/80 p-6 shadow-soft"
-              novalidate
-              data-reveal
-            >
-              <div class="grid gap-4">
-                <div>
-                  <label class="form-label" for="name">Nama</label>
-                  <input
-                    id="name"
-                    name="name"
-                    type="text"
-                    autocomplete="name"
-                    class="form-input"
-                    required
-                  />
+            
+            <div class="lg:col-span-7 grid sm:grid-cols-2 gap-6">
+              <div class="service-card scroll-reveal">
+                <div class="w-10 h-10 rounded-full bg-slate-100 flex items-center justify-center text-slate-700 mb-4">
+                  <i data-lucide="store" class="w-5 h-5"></i>
                 </div>
-                <div>
-                  <label class="form-label" for="phone">Nomor WhatsApp</label>
-                  <input
-                    id="phone"
-                    name="phone"
-                    type="tel"
-                    autocomplete="tel"
-                    class="form-input"
-                    placeholder="08xxxxxxxxxx"
-                    required
-                  />
-                </div>
-                <div>
-                  <label class="form-label" for="needs">Kebutuhan Material</label>
-                  <textarea
-                    id="needs"
-                    name="needs"
-                    rows="4"
-                    class="form-input"
-                    placeholder="Contoh: semen, pasir, cat tembok, keramik..."
-                    required
-                  ></textarea>
-                </div>
-                <button type="submit" class="btn-primary w-full" data-cta>
-                  Kirim
-                </button>
-                <p
-                  id="form-status"
-                  class="text-sm text-slate-600"
-                  aria-live="polite"
-                ></p>
+                <h3 class="font-bold text-lg mb-2">Penjualan Retail & Grosir</h3>
+                <p class="text-slate-600 text-sm">Beli satuan hingga volume besar dengan harga yang tetap kompetitif.</p>
               </div>
-            </form>
+              <div class="service-card scroll-reveal">
+                <div class="w-10 h-10 rounded-full bg-slate-100 flex items-center justify-center text-slate-700 mb-4">
+                  <i data-lucide="hard-hat" class="w-5 h-5"></i>
+                </div>
+                <h3 class="font-bold text-lg mb-2">Supply Material Proyek</h3>
+                <p class="text-slate-600 text-sm">Pengadaan material sesuai kebutuhan spesifikasi kontraktor.</p>
+              </div>
+              <div class="service-card scroll-reveal">
+                <div class="w-10 h-10 rounded-full bg-slate-100 flex items-center justify-center text-slate-700 mb-4">
+                  <i data-lucide="truck" class="w-5 h-5"></i>
+                </div>
+                <h3 class="font-bold text-lg mb-2">Pengiriman ke Lokasi</h3>
+                <p class="text-slate-600 text-sm">Armada pengiriman siap mengantar material tepat waktu ke lokasi.</p>
+              </div>
+              <div class="service-card scroll-reveal">
+                <div class="w-10 h-10 rounded-full bg-slate-100 flex items-center justify-center text-slate-700 mb-4">
+                  <i data-lucide="calculator" class="w-5 h-5"></i>
+                </div>
+                <h3 class="font-bold text-lg mb-2">Konsultasi Material</h3>
+                <p class="text-slate-600 text-sm">Rekomendasi produk yang sesuai dengan anggaran dan jenis pekerjaan.</p>
+              </div>
+              <div class="service-card scroll-reveal">
+                <div class="w-10 h-10 rounded-full bg-slate-100 flex items-center justify-center text-slate-700 mb-4">
+                  <i data-lucide="smartphone" class="w-5 h-5"></i>
+                </div>
+                <h3 class="font-bold text-lg mb-2">Pemesanan via WhatsApp</h3>
+                <p class="text-slate-600 text-sm">Hubungi tim kami untuk pemesanan cepat dan cek update stok realtime.</p>
+              </div>
+              <div class="service-card scroll-reveal">
+                <div class="w-10 h-10 rounded-full bg-slate-100 flex items-center justify-center text-slate-700 mb-4">
+                  <i data-lucide="credit-card" class="w-5 h-5"></i>
+                </div>
+                <h3 class="font-bold text-lg mb-2">Pembayaran Fleksibel</h3>
+                <p class="text-slate-600 text-sm">Skema pembayaran yang dapat disesuaikan untuk pelanggan proyek tetap.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Keunggulan -->
+      <section id="keunggulan" class="py-24 bg-slate-900 text-white relative overflow-hidden">
+        <div class="pattern-grid absolute inset-0 opacity-10"></div>
+        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative z-10">
+          <div class="text-center max-w-2xl mx-auto mb-16 scroll-reveal">
+            <div class="section-label !text-orange-400 justify-center">Alasan Memilih Kami</div>
+            <h2 class="text-3xl sm:text-4xl font-bold mt-4 mb-4">
+              Nilai lebih untuk setiap pelanggan
+            </h2>
+            <p class="text-slate-400 text-lg">
+              Kami fokus pada pengalaman pelanggan dengan layanan konsisten dan tim yang sigap.
+            </p>
+          </div>
+
+          <div class="grid md:grid-cols-3 gap-8">
+            <div class="bg-slate-800/50 p-8 rounded-3xl border border-slate-700 backdrop-blur scroll-reveal">
+              <i data-lucide="boxes" class="w-8 h-8 text-orange-400 mb-6"></i>
+              <h3 class="text-xl font-bold mb-3">Stok Selalu Lengkap</h3>
+              <p class="text-slate-400">Ketersediaan produk yang stabil untuk memastikan proyek Anda berjalan tanpa hambatan material.</p>
+            </div>
+            <div class="bg-slate-800/50 p-8 rounded-3xl border border-slate-700 backdrop-blur scroll-reveal">
+              <i data-lucide="tags" class="w-8 h-8 text-orange-400 mb-6"></i>
+              <h3 class="text-xl font-bold mb-3">Harga Sangat Kompetitif</h3>
+              <p class="text-slate-400">Penawaran terbaik dan transparan untuk kebutuhan pembelian retail maupun grosir proyek besar.</p>
+            </div>
+            <div class="bg-slate-800/50 p-8 rounded-3xl border border-slate-700 backdrop-blur scroll-reveal">
+              <i data-lucide="timer" class="w-8 h-8 text-orange-400 mb-6"></i>
+              <h3 class="text-xl font-bold mb-3">Pengiriman Ekstra Cepat</h3>
+              <p class="text-slate-400">Armada kami siap melakukan pengiriman terjadwal agar pekerjaan di lapangan tidak tertunda.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Galeri -->
+      <section id="galeri" class="py-24 bg-slate-50">
+        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-12 scroll-reveal">
+            <div class="max-w-2xl">
+              <div class="section-label">Galeri / Project Supply</div>
+              <h2 class="text-3xl sm:text-4xl font-bold text-slate-900 mt-4">
+                Dokumentasi aktivitas toko
+              </h2>
+            </div>
+          </div>
+
+          <div class="grid grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6">
+            <div class="gallery-card group scroll-reveal">
+              <div class="aspect-[4/3] rounded-2xl bg-gradient-to-br from-slate-200 to-slate-100 flex items-center justify-center overflow-hidden border border-slate-200/60 transition-transform duration-500 group-hover:scale-[1.02]">
+                <i data-lucide="truck" class="w-12 h-12 text-slate-400 transition-transform duration-500 group-hover:scale-110"></i>
+              </div>
+              <div class="mt-4 font-semibold text-slate-900">Pengiriman Material</div>
+            </div>
+            <div class="gallery-card group scroll-reveal">
+              <div class="aspect-[4/3] rounded-2xl bg-gradient-to-br from-orange-100 to-orange-50 flex items-center justify-center overflow-hidden border border-orange-200/50 transition-transform duration-500 group-hover:scale-[1.02]">
+                <i data-lucide="warehouse" class="w-12 h-12 text-orange-300 transition-transform duration-500 group-hover:scale-110"></i>
+              </div>
+              <div class="mt-4 font-semibold text-slate-900">Stok Gudang</div>
+            </div>
+            <div class="gallery-card group scroll-reveal">
+              <div class="aspect-[4/3] rounded-2xl bg-gradient-to-br from-blue-100 to-blue-50 flex items-center justify-center overflow-hidden border border-blue-200/50 transition-transform duration-500 group-hover:scale-[1.02]">
+                <i data-lucide="paint-bucket" class="w-12 h-12 text-blue-300 transition-transform duration-500 group-hover:scale-110"></i>
+              </div>
+              <div class="mt-4 font-semibold text-slate-900">Produk Cat</div>
+            </div>
+            <div class="gallery-card group scroll-reveal">
+              <div class="aspect-[4/3] rounded-2xl bg-gradient-to-br from-slate-300 to-slate-200 flex items-center justify-center overflow-hidden border border-slate-300/50 transition-transform duration-500 group-hover:scale-[1.02]">
+                <i data-lucide="layers" class="w-12 h-12 text-slate-400 transition-transform duration-500 group-hover:scale-110"></i>
+              </div>
+              <div class="mt-4 font-semibold text-slate-900">Besi dan Pipa</div>
+            </div>
+            <div class="gallery-card group scroll-reveal">
+              <div class="aspect-[4/3] rounded-2xl bg-gradient-to-br from-emerald-100 to-emerald-50 flex items-center justify-center overflow-hidden border border-emerald-200/50 transition-transform duration-500 group-hover:scale-[1.02]">
+                <i data-lucide="layout-grid" class="w-12 h-12 text-emerald-300 transition-transform duration-500 group-hover:scale-110"></i>
+              </div>
+              <div class="mt-4 font-semibold text-slate-900">Keramik & Finishing</div>
+            </div>
+            <div class="gallery-card group scroll-reveal">
+              <div class="aspect-[4/3] rounded-2xl bg-gradient-to-br from-amber-100 to-amber-50 flex items-center justify-center overflow-hidden border border-amber-200/50 transition-transform duration-500 group-hover:scale-[1.02]">
+                <i data-lucide="store" class="w-12 h-12 text-amber-300 transition-transform duration-500 group-hover:scale-110"></i>
+              </div>
+              <div class="mt-4 font-semibold text-slate-900">Area Toko</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Testimoni -->
+      <section id="testimoni" class="py-24 bg-white">
+        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div class="text-center max-w-2xl mx-auto mb-16 scroll-reveal">
+            <div class="section-label justify-center">Testimoni</div>
+            <h2 class="text-3xl sm:text-4xl font-bold text-slate-900 mt-4 mb-4">
+              Kepercayaan pelanggan
+            </h2>
+          </div>
+
+          <div class="grid md:grid-cols-3 gap-8">
+            <div class="testimonial-card scroll-reveal">
+              <div class="flex gap-1 text-orange-400 mb-6">
+                <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+              </div>
+              <p class="text-slate-600 mb-8 italic">"Stok material lengkap dan pengiriman tepat waktu. Renovasi rumah saya jadi lebih cepat tanpa repot cari bahan ke banyak tempat karena semuanya ada di sini."</p>
+              <div class="flex items-center gap-4">
+                <div class="w-12 h-12 rounded-full bg-slate-100 flex items-center justify-center font-bold text-slate-500">R</div>
+                <div>
+                  <div class="font-bold text-slate-900">Ibu Ratna</div>
+                  <div class="text-sm text-slate-500">Pemilik Rumah</div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="testimonial-card scroll-reveal">
+              <div class="flex gap-1 text-orange-400 mb-6">
+                <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+              </div>
+              <p class="text-slate-600 mb-8 italic">"Harga grosirnya kompetitif, koordinasi tim Maju Jaya juga sangat responsif. Sangat membantu saat proyek sedang berjalan dan butuh material mendadak."</p>
+              <div class="flex items-center gap-4">
+                <div class="w-12 h-12 rounded-full bg-slate-100 flex items-center justify-center font-bold text-slate-500">H</div>
+                <div>
+                  <div class="font-bold text-slate-900">Pak Hendra</div>
+                  <div class="text-sm text-slate-500">Mandor Proyek</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="testimonial-card scroll-reveal">
+              <div class="flex gap-1 text-orange-400 mb-6">
+                <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+              </div>
+              <p class="text-slate-600 mb-8 italic">"Kami dapat satu vendor untuk banyak kebutuhan, dari struktur sampai finishing. Efisien, transparan, dan jelas progres stoknya untuk di lapangan."</p>
+              <div class="flex items-center gap-4">
+                <div class="w-12 h-12 rounded-full bg-slate-100 flex items-center justify-center font-bold text-slate-500">SK</div>
+                <div>
+                  <div class="font-bold text-slate-900">CV Sinar Karya</div>
+                  <div class="text-sm text-slate-500">Kontraktor</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQ & Kontak -->
+      <section class="py-24 bg-slate-50">
+        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div class="grid lg:grid-cols-2 gap-16 items-start">
+            
+            <!-- FAQ -->
+            <div id="faq" class="scroll-reveal">
+              <div class="section-label">FAQ</div>
+              <h2 class="text-3xl font-bold text-slate-900 mt-4 mb-8">
+                Pertanyaan umum
+              </h2>
+              <div class="space-y-4">
+                <div class="faq-item rounded-2xl bg-white border border-slate-200 overflow-hidden shadow-sm">
+                  <button class="faq-trigger w-full px-6 py-5 flex items-center justify-between text-left focus-visible:outline-none focus-visible:bg-slate-50" aria-expanded="false">
+                    <span class="font-semibold text-slate-900">Apakah bisa kirim ke lokasi proyek?</span>
+                    <i data-lucide="chevron-down" class="faq-icon w-5 h-5 text-slate-400 transition-transform duration-300"></i>
+                  </button>
+                  <div class="faq-content h-0 overflow-hidden px-6 text-slate-600">
+                    <div class="pb-5">Ya, kami melayani pengiriman langsung ke lokasi proyek atau rumah Anda dengan armada kami sendiri. Jadwal bisa disesuaikan.</div>
+                  </div>
+                </div>
+
+                <div class="faq-item rounded-2xl bg-white border border-slate-200 overflow-hidden shadow-sm">
+                  <button class="faq-trigger w-full px-6 py-5 flex items-center justify-between text-left focus-visible:outline-none focus-visible:bg-slate-50" aria-expanded="false">
+                    <span class="font-semibold text-slate-900">Apakah melayani pembelian grosir?</span>
+                    <i data-lucide="chevron-down" class="faq-icon w-5 h-5 text-slate-400 transition-transform duration-300"></i>
+                  </button>
+                  <div class="faq-content h-0 overflow-hidden px-6 text-slate-600">
+                    <div class="pb-5">Tentu, kami melayani pembelian grosir untuk supply toko maupun proyek skala besar dengan penawaran harga khusus.</div>
+                  </div>
+                </div>
+
+                <div class="faq-item rounded-2xl bg-white border border-slate-200 overflow-hidden shadow-sm">
+                  <button class="faq-trigger w-full px-6 py-5 flex items-center justify-between text-left focus-visible:outline-none focus-visible:bg-slate-50" aria-expanded="false">
+                    <span class="font-semibold text-slate-900">Apakah bisa konsultasi kebutuhan material?</span>
+                    <i data-lucide="chevron-down" class="faq-icon w-5 h-5 text-slate-400 transition-transform duration-300"></i>
+                  </button>
+                  <div class="faq-content h-0 overflow-hidden px-6 text-slate-600">
+                    <div class="pb-5">Sangat bisa. Tim kami siap membantu menghitung dan merekomendasikan spesifikasi material yang paling tepat untuk kebutuhan Anda.</div>
+                  </div>
+                </div>
+
+                <div class="faq-item rounded-2xl bg-white border border-slate-200 overflow-hidden shadow-sm">
+                  <button class="faq-trigger w-full px-6 py-5 flex items-center justify-between text-left focus-visible:outline-none focus-visible:bg-slate-50" aria-expanded="false">
+                    <span class="font-semibold text-slate-900">Apakah bisa pesan via WhatsApp?</span>
+                    <i data-lucide="chevron-down" class="faq-icon w-5 h-5 text-slate-400 transition-transform duration-300"></i>
+                  </button>
+                  <div class="faq-content h-0 overflow-hidden px-6 text-slate-600">
+                    <div class="pb-5">Bisa. Hubungi nomor WhatsApp resmi kami untuk cek stok, tanya harga, dan memproses pesanan dengan cepat.</div>
+                  </div>
+                </div>
+
+                <div class="faq-item rounded-2xl bg-white border border-slate-200 overflow-hidden shadow-sm">
+                  <button class="faq-trigger w-full px-6 py-5 flex items-center justify-between text-left focus-visible:outline-none focus-visible:bg-slate-50" aria-expanded="false">
+                    <span class="font-semibold text-slate-900">Area pengiriman ke mana saja?</span>
+                    <i data-lucide="chevron-down" class="faq-icon w-5 h-5 text-slate-400 transition-transform duration-300"></i>
+                  </button>
+                  <div class="faq-content h-0 overflow-hidden px-6 text-slate-600">
+                    <div class="pb-5">Kami melayani pengiriman area Jakarta dan sekitarnya (Jabodetabek). Untuk proyek luar kota bisa dikoordinasikan.</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Kontak Form -->
+            <div id="kontak" class="bg-white p-8 sm:p-10 rounded-3xl shadow-xl shadow-slate-200/40 border border-slate-100 scroll-reveal">
+              <h3 class="text-2xl font-bold text-slate-900 mb-2">Mulai Konsultasi</h3>
+              <p class="text-slate-600 mb-8">Tinggalkan pesan dan kami akan segera menghubungi Anda.</p>
+              
+              <form id="contact-form" class="space-y-5" novalidate>
+                <div>
+                  <label for="name" class="block text-sm font-semibold text-slate-700 mb-1">Nama Lengkap</label>
+                  <input type="text" id="name" name="name" class="w-full px-4 py-3 rounded-xl border border-slate-200 bg-slate-50 focus:bg-white focus:outline-none focus:ring-2 focus:ring-orange-500/50 focus:border-orange-500 transition-colors" placeholder="Masukkan nama Anda">
+                  <p class="text-red-500 text-xs mt-1 hidden" id="err-name">Nama wajib diisi.</p>
+                </div>
+                
+                <div>
+                  <label for="whatsapp" class="block text-sm font-semibold text-slate-700 mb-1">Nomor WhatsApp</label>
+                  <input type="tel" id="whatsapp" name="whatsapp" class="w-full px-4 py-3 rounded-xl border border-slate-200 bg-slate-50 focus:bg-white focus:outline-none focus:ring-2 focus:ring-orange-500/50 focus:border-orange-500 transition-colors" placeholder="0812xxxx">
+                  <p class="text-red-500 text-xs mt-1 hidden" id="err-whatsapp">Nomor WhatsApp wajib diisi.</p>
+                </div>
+                
+                <div>
+                  <label for="kebutuhan" class="block text-sm font-semibold text-slate-700 mb-1">Kebutuhan Material</label>
+                  <textarea id="kebutuhan" name="kebutuhan" rows="3" class="w-full px-4 py-3 rounded-xl border border-slate-200 bg-slate-50 focus:bg-white focus:outline-none focus:ring-2 focus:ring-orange-500/50 focus:border-orange-500 transition-colors resize-none" placeholder="Ceritakan kebutuhan proyek Anda..."></textarea>
+                  <p class="text-red-500 text-xs mt-1 hidden" id="err-kebutuhan">Kebutuhan wajib diisi.</p>
+                </div>
+
+                <div id="form-success" class="hidden bg-emerald-50 text-emerald-700 p-4 rounded-xl text-sm font-medium border border-emerald-200">
+                  Terima kasih! Pesan Anda telah terkirim. Tim kami akan menghubungi Anda segera.
+                </div>
+
+                <button type="submit" class="w-full btn-primary py-4 text-base mt-2" data-cta>
+                  Kirim Pesan
+                </button>
+              </form>
+            </div>
+
           </div>
         </div>
       </section>
     </main>
 
-    <footer class="border-t border-slate-200 bg-slate-900 text-slate-200">
-      <div class="mx-auto max-w-6xl px-4 py-12 sm:px-6 lg:px-8">
-        <div class="grid gap-10 md:grid-cols-[1.2fr_1fr_1fr_1fr]">
-          <div class="space-y-3">
-            <div class="flex items-center gap-3">
-              <div
-                class="flex h-10 w-10 items-center justify-center rounded-xl bg-orange-500 text-white"
-                aria-hidden="true"
-              >
-                <svg
-                  viewBox="0 0 24 24"
-                  class="h-5 w-5"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="2"
-                >
-                  <path d="M3 11h18v9H3z" />
-                  <path d="M7 11V7a5 5 0 0 1 10 0v4" />
-                </svg>
+    <footer class="bg-slate-950 text-slate-300 py-16 border-t border-slate-800">
+      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
+          <div class="md:col-span-1">
+            <div class="flex items-center gap-2 mb-6">
+              <div class="bg-orange-500 text-white p-1.5 rounded-lg">
+                <i data-lucide="hammer" class="w-5 h-5"></i>
               </div>
-              <span class="text-lg font-semibold text-white">Maju Jaya</span>
+              <span class="text-xl font-bold text-white tracking-tight">Maju Jaya</span>
             </div>
-            <p class="text-sm text-slate-300">
-              Toko bangunan lokal terpercaya dengan layanan profesional untuk
-              retail, kontraktor, dan developer perumahan.
+            <p class="text-slate-400 text-sm leading-relaxed mb-6">
+              Mitra material bangunan profesional untuk proyek, renovasi, dan kebutuhan industri. Kualitas terjamin, harga bersaing.
             </p>
           </div>
+          
           <div>
-            <p class="text-sm font-semibold text-white">Quick Links</p>
-            <ul class="mt-3 space-y-2 text-sm text-slate-300">
-              <li><a class="hover:text-white" href="#tentang">Tentang Kami</a></li>
-              <li><a class="hover:text-white" href="#produk">Produk</a></li>
-              <li><a class="hover:text-white" href="#layanan">Layanan</a></li>
-              <li><a class="hover:text-white" href="#kontak">Kontak</a></li>
+            <h4 class="text-white font-semibold mb-6">Tautan Cepat</h4>
+            <ul class="space-y-3 text-sm">
+              <li><a href="#beranda" class="hover:text-orange-400 transition-colors">Beranda</a></li>
+              <li><a href="#tentang" class="hover:text-orange-400 transition-colors">Tentang Kami</a></li>
+              <li><a href="#layanan" class="hover:text-orange-400 transition-colors">Layanan</a></li>
+              <li><a href="#faq" class="hover:text-orange-400 transition-colors">FAQ</a></li>
             </ul>
           </div>
+
           <div>
-            <p class="text-sm font-semibold text-white">Kategori Produk</p>
-            <ul class="mt-3 space-y-2 text-sm text-slate-300">
-              <li>Semen & Pasir</li>
-              <li>Keramik & Granit</li>
-              <li>Cat & Finishing</li>
-              <li>Perkakas Bangunan</li>
+            <h4 class="text-white font-semibold mb-6">Produk Utama</h4>
+            <ul class="space-y-3 text-sm">
+              <li><a href="#produk" class="hover:text-orange-400 transition-colors">Semen & Pasir</a></li>
+              <li><a href="#produk" class="hover:text-orange-400 transition-colors">Besi & Baja</a></li>
+              <li><a href="#produk" class="hover:text-orange-400 transition-colors">Cat & Finishing</a></li>
+              <li><a href="#produk" class="hover:text-orange-400 transition-colors">Keramik & Granit</a></li>
             </ul>
           </div>
+
           <div>
-            <p class="text-sm font-semibold text-white">Kontak</p>
-            <ul class="mt-3 space-y-2 text-sm text-slate-300">
-              <li>Jl. Raya Bangunan No. 88, Jakarta</li>
-              <li>0812-3456-7890</li>
-              <li>info@majujaya.co.id</li>
+            <h4 class="text-white font-semibold mb-6">Kontak Kami</h4>
+            <ul class="space-y-4 text-sm text-slate-400">
+              <li class="flex items-start gap-3">
+                <i data-lucide="map-pin" class="w-5 h-5 text-orange-500 flex-shrink-0"></i>
+                <span>Jl. Raya Bangunan No. 88, Jakarta</span>
+              </li>
+              <li class="flex items-start gap-3">
+                <i data-lucide="clock" class="w-5 h-5 text-orange-500 flex-shrink-0"></i>
+                <span>Senin - Sabtu, 07.30 - 17.00</span>
+              </li>
+              <li class="flex items-center gap-3">
+                <i data-lucide="phone" class="w-5 h-5 text-orange-500 flex-shrink-0"></i>
+                <a href="https://wa.me/6281234567890" class="hover:text-white transition-colors">0812-3456-7890</a>
+              </li>
+              <li class="flex items-center gap-3">
+                <i data-lucide="mail" class="w-5 h-5 text-orange-500 flex-shrink-0"></i>
+                <a href="mailto:info@majujaya.co.id" class="hover:text-white transition-colors">info@majujaya.co.id</a>
+              </li>
             </ul>
           </div>
         </div>
-        <div class="mt-10 border-t border-slate-700 pt-6 text-xs text-slate-400">
-          © <span data-year></span> Toko Bangunan Maju Jaya. All rights reserved.
+        
+        <div class="pt-8 border-t border-slate-800 text-sm text-slate-500 flex flex-col md:flex-row justify-between items-center gap-4">
+          <div>&copy; <span id="year">2026</span> Toko Bangunan Maju Jaya. All rights reserved.</div>
+          <div class="flex gap-4">
+            <a href="#" class="hover:text-white transition-colors" aria-label="Facebook"><i data-lucide="facebook" class="w-5 h-5"></i></a>
+            <a href="#" class="hover:text-white transition-colors" aria-label="Instagram"><i data-lucide="instagram" class="w-5 h-5"></i></a>
+          </div>
         </div>
       </div>
     </footer>
